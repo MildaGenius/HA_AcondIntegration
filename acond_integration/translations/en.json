@@ -1,0 +1,668 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Connect to Acond heat pump",
+        "description": "Configure the local Tecomat controller.",
+        "data": {
+          "host": "IP address",
+          "hostname": "Tecomat name",
+          "auto_discover": "Automatically resolve Tecomat name",
+          "username": "Username",
+          "password": "Password",
+          "scan_interval": "Polling interval (seconds)"
+        }
+      }
+    },
+    "error": {
+      "cannot_resolve": "The Tecomat name could not be resolved. The manual IP address will be used.",
+      "cannot_connect": "Unable to connect to the Tecomat controller.",
+      "invalid_auth": "Invalid username or password."
+    },
+    "abort": {
+      "already_configured": "This Acond controller is already configured."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Acond integration options",
+        "data": {
+          "host": "IP address",
+          "hostname": "Tecomat name",
+          "auto_discover": "Automatically resolve Tecomat name",
+          "username": "Username",
+          "password": "Password",
+          "scan_interval": "Polling interval (seconds)"
+        }
+      }
+    }
+  },
+  "entity": {
+    "sensor": {
+      "page49_page_title": {
+        "name": "Tecomat page title"
+      },
+      "page49_access_page_level": {
+        "name": "Tecomat page access level"
+      },
+      "page49_access_user_level": {
+        "name": "Tecomat user access level"
+      },
+      "page49_access_ucid": {
+        "name": "Tecomat session identifier"
+      },
+      "page49_r6819_usint_u": {
+        "name": "Unknown Tecomat variable: __R6819_USINT_u"
+      },
+      "page49_r1808_real_1f": {
+        "name": "Firmware version"
+      },
+      "page49_r6688_string_95_s": {
+        "name": "Unknown Tecomat variable: __R6688_STRING[95]_s"
+      },
+      "page49_r6597_string_80_s": {
+        "name": "Unknown Tecomat variable: __R6597_STRING[80]_s"
+      },
+      "page49_r6344_dt_tdd_mm_yyyy": {
+        "name": "Unknown Tecomat variable: __R6344_DT_TDD.MM.YYYY"
+      },
+      "page49_r6344_dt_thh_mm": {
+        "name": "Unknown Tecomat variable: __R6344_DT_Thh:mm"
+      },
+      "page49_desired_room_temperature": {
+        "name": "Desired room temperature"
+      },
+      "page49_r190_real_1f": {
+        "name": "Desired room temperature"
+      },
+      "page49_r6288_real_1f": {
+        "name": "Room temperature"
+      },
+      "page49_r6292_real_1f": {
+        "name": "Requested room temperature"
+      },
+      "page49_r6264_real_1f": {
+        "name": "Buffer temperature"
+      },
+      "page49_r721_real_1f": {
+        "name": "Requested DHW temperature"
+      },
+      "page49_r6268_real_1f": {
+        "name": "Unknown Tecomat variable: __R6268_REAL_.1f"
+      },
+      "page49_r1852_real_1f": {
+        "name": "Unknown Tecomat variable: __R1852_REAL_.1f"
+      },
+      "page49_r6316_real_1f": {
+        "name": "Unknown Tecomat variable: __R6316_REAL_.1f"
+      },
+      "page49_r6320_real_1f": {
+        "name": "Requested buffer temperature"
+      },
+      "page49_r6276_real_1f": {
+        "name": "Plate heat exchanger water temperature"
+      },
+      "page49_r6284_real_1f": {
+        "name": "Outdoor temperature"
+      },
+      "page49_r72_real_1f": {
+        "name": "Average outdoor temperature"
+      },
+      "page49_average_outdoor_temperature": {
+        "name": "Average outdoor temperature"
+      },
+      "page49_r770_real_1f": {
+        "name": "End of heating temperature"
+      },
+      "page49_r6296_real_1f": {
+        "name": "Hot water temperature"
+      },
+      "page49_r815_real_1f": {
+        "name": "Target domestic hot water temperature"
+      },
+      "page49_target_dhw_temperature": {
+        "name": "Target domestic hot water temperature"
+      },
+      "page49_r6300_real_1f": {
+        "name": "Requested DHW temperature"
+      },
+      "page49_r862_time_thh_mm": {
+        "name": "Fan attenuation from hh:mm"
+      },
+      "page49_r866_time_thh_mm": {
+        "name": "Fan attenuation to hh:mm"
+      },
+      "page49_r6280_real_1f": {
+        "name": "Unknown Tecomat variable: __R6280_REAL_.1f"
+      },
+      "page49_r6804_string_6_s": {
+        "name": "Unknown Tecomat variable: __R6804_STRING[6]_s"
+      },
+      "page49_r6801_usint_u": {
+        "name": "End of heating temperature"
+      },
+      "page49_r6802_uint_u": {
+        "name": "Unknown Tecomat variable: __R6802_UINT_u"
+      },
+      "page49_r6324_real_1f": {
+        "name": "Unknown Tecomat variable: __R6324_REAL_.1f"
+      },
+      "page49_r1968_real_1f": {
+        "name": "Unknown Tecomat variable: __R1968_REAL_.1f"
+      },
+      "page49_r6312_real_1f": {
+        "name": "Unknown Tecomat variable: __R6312_REAL_.1f"
+      },
+      "page63_page_title": {
+        "name": "Tecomat page title"
+      },
+      "page63_access_page_level": {
+        "name": "Tecomat page access level"
+      },
+      "page63_access_user_level": {
+        "name": "Tecomat user access level"
+      },
+      "page63_access_ucid": {
+        "name": "Tecomat session identifier"
+      },
+      "page63_r1808_real_1f": {
+        "name": "Firmware version"
+      },
+      "page63_r6688_string_95_s": {
+        "name": "Unknown Tecomat variable: __R6688_STRING[95]_s"
+      },
+      "page63_r6597_string_80_s": {
+        "name": "Unknown Tecomat variable: __R6597_STRING[80]_s"
+      },
+      "page63_r6344_dt_tdd_mm_yyyy": {
+        "name": "Unknown Tecomat variable: __R6344_DT_TDD.MM.YYYY"
+      },
+      "page63_r6344_dt_thh_mm": {
+        "name": "Unknown Tecomat variable: __R6344_DT_Thh:mm"
+      },
+      "page63_r8927_udint_u": {
+        "name": "Unknown Tecomat variable: __R8927_UDINT_u"
+      },
+      "page61_page_title": {
+        "name": "Tecomat page title"
+      },
+      "page61_access_page_level": {
+        "name": "Tecomat page access level"
+      },
+      "page61_access_user_level": {
+        "name": "Tecomat user access level"
+      },
+      "page61_access_ucid": {
+        "name": "Tecomat session identifier"
+      },
+      "page61_r20479_string_23_s": {
+        "name": "Operating time (System circulation pump)"
+      },
+      "page61_r20719_string_23_s": {
+        "name": "Operating time (Bivalence2)"
+      },
+      "page61_r20695_string_23_s": {
+        "name": "Operating time (Bivalence1)"
+      },
+      "page61_r20527_string_23_s": {
+        "name": "Operating time (Circulation pump)"
+      },
+      "page61_r20647_string_23_s": {
+        "name": "Operating time (Fan)"
+      },
+      "page61_r20623_string_23_s": {
+        "name": "Operating time (Compressor)"
+      },
+      "page61_r20671_string_23_s": {
+        "name": "Operating time (DHW)"
+      },
+      "page61_r20503_string_23_s": {
+        "name": "Operating time (component unknown): __R20503_STRING[23]_s"
+      },
+      "page61_r20551_string_23_s": {
+        "name": "Operating time (component unknown): __R20551_STRING[23]_s"
+      },
+      "page61_r20599_string_23_s": {
+        "name": "Operating time (component unknown): __R20599_STRING[23]_s"
+      },
+      "page61_r20575_string_23_s": {
+        "name": "Operating time (component unknown): __R20575_STRING[23]_s"
+      },
+      "page61_r1808_real_1f": {
+        "name": "Firmware version"
+      },
+      "page61_r6688_string_95_s": {
+        "name": "Unknown Tecomat variable: __R6688_STRING[95]_s"
+      },
+      "page61_r6344_dt_tdd_mm_yyyy": {
+        "name": "Unknown Tecomat variable: __R6344_DT_TDD.MM.YYYY"
+      },
+      "page61_r6344_dt_thh_mm": {
+        "name": "Unknown Tecomat variable: __R6344_DT_Thh:mm"
+      },
+      "page61_r6597_string_80_s": {
+        "name": "Unknown Tecomat variable: __R6597_STRING[80]_s"
+      },
+      "page61_r20767_string_23_s": {
+        "name": "Operating time (component unknown): __R20767_STRING[23]_s"
+      },
+      "page53_page_title": {
+        "name": "Tecomat page title"
+      },
+      "page53_access_page_level": {
+        "name": "Tecomat page access level"
+      },
+      "page53_access_user_level": {
+        "name": "Tecomat user access level"
+      },
+      "page53_access_ucid": {
+        "name": "Tecomat session identifier"
+      },
+      "page53_r1808_real_1f": {
+        "name": "Firmware version"
+      },
+      "page53_r6384_string_17_s": {
+        "name": "Controller MAC address"
+      },
+      "page53_r872_string_20_s": {
+        "name": "Unknown Tecomat variable: __R872_STRING[20]_s"
+      },
+      "page53_r893_string_20_s": {
+        "name": "Unknown Tecomat variable: __R893_STRING[20]_s"
+      },
+      "page53_r914_string_20_s": {
+        "name": "Unknown Tecomat variable: __R914_STRING[20]_s"
+      },
+      "page53_r935_string_20_s": {
+        "name": "Unknown Tecomat variable: __R935_STRING[20]_s"
+      },
+      "page53_r956_string_20_s": {
+        "name": "Unknown Tecomat variable: __R956_STRING[20]_s"
+      },
+      "page53_r977_string_20_s": {
+        "name": "Unknown Tecomat variable: __R977_STRING[20]_s"
+      },
+      "page53_r6408_string_16_s": {
+        "name": "Controller IP address"
+      },
+      "page53_r6425_string_16_s": {
+        "name": "Subnet mask"
+      },
+      "page53_r6442_string_16_s": {
+        "name": "Default gateway"
+      },
+      "page53_r1195_string_80_s": {
+        "name": "Unknown Tecomat variable: __R1195_STRING[80]_s"
+      },
+      "page53_r1276_string_80_s": {
+        "name": "Unknown Tecomat variable: __R1276_STRING[80]_s"
+      },
+      "page53_r6887_dt_tdd_mm_yyyy_hh_mm_ss": {
+        "name": "Unknown Tecomat variable: __R6887_DT_TDD.MM.YYYY hh:mm:ss"
+      },
+      "page53_r6688_string_95_s": {
+        "name": "Unknown Tecomat variable: __R6688_STRING[95]_s"
+      },
+      "page53_r6597_string_80_s": {
+        "name": "Unknown Tecomat variable: __R6597_STRING[80]_s"
+      },
+      "page53_r6344_dt_tdd_mm_yyyy": {
+        "name": "Unknown Tecomat variable: __R6344_DT_TDD.MM.YYYY"
+      },
+      "page53_r6344_dt_thh_mm": {
+        "name": "Unknown Tecomat variable: __R6344_DT_Thh:mm"
+      },
+      "page53_r1779_string_20_s": {
+        "name": "Unknown Tecomat variable: __R1779_STRING[20]_s"
+      },
+      "page53_r6784_string_6_s": {
+        "name": "Unknown Tecomat variable: __R6784_STRING[6]_s"
+      },
+      "unknown_variable": {
+        "name": "Unknown Tecomat variable"
+      }
+    },
+    "binary_sensor": {
+      "page49_x31_2_bool_i": {
+        "name": "Unknown Tecomat variable: __X31.2_BOOL_i"
+      },
+      "page49_r6800_0_bool_i": {
+        "name": "Unknown Tecomat variable: __R6800.0_BOOL_i"
+      },
+      "page49_y6_4_bool_i": {
+        "name": "Fan"
+      },
+      "page49_y7_1_bool_i": {
+        "name": "Circulation pump"
+      },
+      "page49_y6_2_bool_i": {
+        "name": "Compressor"
+      },
+      "page49_r6383_0_bool_i": {
+        "name": "Winter/summer mode"
+      },
+      "page49_r7148_0_bool_i": {
+        "name": "Unknown Tecomat variable: __R7148.0_BOOL_i"
+      },
+      "page49_r8904_2_bool_i": {
+        "name": "Unknown Tecomat variable: __R8904.2_BOOL_i"
+      },
+      "page49_r870_0_bool_i": {
+        "name": "Acond Therm control"
+      },
+      "page49_r20478_0_bool_i": {
+        "name": "Unknown Tecomat variable: __R20478.0_BOOL_i"
+      },
+      "page49_r870_1_bool_i": {
+        "name": "Weather-compensated control"
+      },
+      "page49_r870_2_bool_i": {
+        "name": "Manual control"
+      },
+      "page49_r870_3_bool_i": {
+        "name": "Automatic mode"
+      },
+      "page49_r870_4_bool_i": {
+        "name": "Heat pump mode"
+      },
+      "page49_r870_6_bool_i": {
+        "name": "Bivalent mode"
+      },
+      "page49_r870_7_bool_i": {
+        "name": "Off mode"
+      },
+      "page49_r6369_0_bool_i": {
+        "name": "Unknown Tecomat variable: __R6369.0_BOOL_i"
+      },
+      "page49_r17187_0_bool_i": {
+        "name": "Unknown Tecomat variable: __R17187.0_BOOL_i"
+      },
+      "page49_r805_4_bool_i": {
+        "name": "Unknown Tecomat variable: __R805.4_BOOL_i"
+      },
+      "page49_r6799_2_bool_i": {
+        "name": "Unknown Tecomat variable: __R6799.2_BOOL_i"
+      },
+      "page49_r8906_2_bool_i": {
+        "name": "Unknown Tecomat variable: __R8906.2_BOOL_i"
+      },
+      "page49_r1156_0_bool_i": {
+        "name": "Circulation control status"
+      },
+      "page49_r8905_6_bool_i": {
+        "name": "Unknown Tecomat variable: __R8905.6_BOOL_i"
+      },
+      "page49_r17580_0_bool_i": {
+        "name": "Unknown Tecomat variable: __R17580.0_BOOL_i"
+      },
+      "page49_r8906_6_bool_i": {
+        "name": "Unknown Tecomat variable: __R8906.6_BOOL_i"
+      },
+      "page49_r8905_7_bool_i": {
+        "name": "Unknown Tecomat variable: __R8905.7_BOOL_i"
+      },
+      "page49_r8906_1_bool_i": {
+        "name": "Unknown Tecomat variable: __R8906.1_BOOL_i"
+      },
+      "page49_r805_3_bool_i": {
+        "name": "Unknown Tecomat variable: __R805.3_BOOL_i"
+      },
+      "page49_r7292_3_bool_i": {
+        "name": "Unknown Tecomat variable: __R7292.3_BOOL_i"
+      },
+      "page49_r8906_3_bool_i": {
+        "name": "Unknown Tecomat variable: __R8906.3_BOOL_i"
+      },
+      "page49_r7292_7_bool_i": {
+        "name": "Unknown Tecomat variable: __R7292.7_BOOL_i"
+      },
+      "page49_r827_0_bool_i": {
+        "name": "Fan attenuation"
+      },
+      "page49_r805_2_bool_i": {
+        "name": "Unknown Tecomat variable: __R805.2_BOOL_i"
+      },
+      "page49_r814_1_bool_i": {
+        "name": "Unknown Tecomat variable: __R814.1_BOOL_i"
+      },
+      "page49_r814_0_bool_i": {
+        "name": "Unknown Tecomat variable: __R814.0_BOOL_i"
+      },
+      "page49_r688_1_bool_i": {
+        "name": "Unknown Tecomat variable: __R688.1_BOOL_i"
+      },
+      "page49_y6_6_bool_i": {
+        "name": "Unknown Tecomat variable: __Y6.6_BOOL_i"
+      },
+      "page49_r688_0_bool_i": {
+        "name": "Unknown Tecomat variable: __R688.0_BOOL_i"
+      },
+      "page49_y6_5_bool_i": {
+        "name": "Unknown Tecomat variable: __Y6.5_BOOL_i"
+      },
+      "page49_r2750_0_bool_i": {
+        "name": "Unknown Tecomat variable: __R2750.0_BOOL_i"
+      },
+      "page49_y7_2_bool_i": {
+        "name": "Circulation pump output"
+      },
+      "page49_y6_0_bool_i": {
+        "name": "Domestic hot water heating"
+      },
+      "page49_r805_1_bool_i": {
+        "name": "Unknown Tecomat variable: __R805.1_BOOL_i"
+      },
+      "page49_r6791_0_bool_i": {
+        "name": "Unknown Tecomat variable: __R6791.0_BOOL_i"
+      },
+      "page49_r1156_2_bool_i": {
+        "name": "Unknown Tecomat variable: __R1156.2_BOOL_i"
+      },
+      "page49_r1985_1_bool_i": {
+        "name": "Solar mode selection"
+      },
+      "page49_r1156_5_bool_i": {
+        "name": "Unknown Tecomat variable: __R1156.5_BOOL_i"
+      },
+      "page49_r1985_3_bool_i": {
+        "name": "Pool mode selection"
+      },
+      "page49_r6799_6_bool_i": {
+        "name": "Unknown Tecomat variable: __R6799.6_BOOL_i"
+      },
+      "page49_y6_3_bool_i": {
+        "name": "Unknown Tecomat variable: __Y6.3_BOOL_i"
+      },
+      "page49_s25_4_bool_i": {
+        "name": "Unknown Tecomat variable: __S25.4_BOOL_i"
+      },
+      "page49_s25_3_bool_i": {
+        "name": "Unknown Tecomat variable: __S25.3_BOOL_i"
+      },
+      "page49_r6476_0_bool_i": {
+        "name": "Defrost status"
+      },
+      "page49_r6864_0_bool_i": {
+        "name": "Defrost status"
+      },
+      "page49_r6485_0_bool_i": {
+        "name": "Defrost status"
+      },
+      "page49_r1157_0_bool_i": {
+        "name": "Three-way valve status"
+      },
+      "page49_r6495_4_bool_i": {
+        "name": "Three-way valve status"
+      },
+      "page49_r6792_0_bool_i": {
+        "name": "Unknown Tecomat variable: __R6792.0_BOOL_i"
+      },
+      "page49_r871_0_bool_i": {
+        "name": "Manual mode (MAN)"
+      },
+      "page49_r6799_3_bool_i": {
+        "name": "Unknown Tecomat variable: __R6799.3_BOOL_i"
+      },
+      "page49_r1985_2_bool_i": {
+        "name": "Pool mode on/off"
+      },
+      "page49_r8906_7_bool_i": {
+        "name": "Unknown Tecomat variable: __R8906.7_BOOL_i"
+      },
+      "page49_r2755_0_bool_i": {
+        "name": "Unknown Tecomat variable: __R2755.0_BOOL_i"
+      },
+      "page49_r24864_0_bool_i": {
+        "name": "Unknown Tecomat variable: __R24864.0_BOOL_i"
+      },
+      "page49_r7148_5_bool_i": {
+        "name": "Unknown Tecomat variable: __R7148.5_BOOL_i"
+      },
+      "page49_r7293_0_bool_i": {
+        "name": "Unknown Tecomat variable: __R7293.0_BOOL_i"
+      },
+      "page49_r7292_2_bool_i": {
+        "name": "Unknown Tecomat variable: __R7292.2_BOOL_i"
+      },
+      "page49_r1985_0_bool_i": {
+        "name": "Solar mode on/off"
+      },
+      "page49_r8906_5_bool_i": {
+        "name": "Unknown Tecomat variable: __R8906.5_BOOL_i"
+      },
+      "page49_r2736_0_bool_i": {
+        "name": "Unknown Tecomat variable: __R2736.0_BOOL_i"
+      },
+      "page63_x31_2_bool_i": {
+        "name": "Unknown Tecomat variable: __X31.2_BOOL_i"
+      },
+      "page63_r8904_2_bool_i": {
+        "name": "Unknown Tecomat variable: __R8904.2_BOOL_i"
+      },
+      "page63_r6369_0_bool_i": {
+        "name": "Unknown Tecomat variable: __R6369.0_BOOL_i"
+      },
+      "page63_r56057_0_bool_i": {
+        "name": "Unknown Tecomat variable: __R56057.0_BOOL_i"
+      },
+      "page63_r805_4_bool_i": {
+        "name": "Unknown Tecomat variable: __R805.4_BOOL_i"
+      },
+      "page63_r1157_5_bool_i": {
+        "name": "Unknown Tecomat variable: __R1157.5_BOOL_i"
+      },
+      "page63_r1157_6_bool_i": {
+        "name": "Unknown Tecomat variable: __R1157.6_BOOL_i"
+      },
+      "page63_r1157_7_bool_i": {
+        "name": "Unknown Tecomat variable: __R1157.7_BOOL_i"
+      },
+      "page63_r805_2_bool_i": {
+        "name": "Unknown Tecomat variable: __R805.2_BOOL_i"
+      },
+      "page63_r1158_0_bool_i": {
+        "name": "Unknown Tecomat variable: __R1158.0_BOOL_i"
+      },
+      "page63_r2607_1_bool_i": {
+        "name": "Unknown Tecomat variable: __R2607.1_BOOL_i"
+      },
+      "page61_r1156_5_bool_i": {
+        "name": "Unknown Tecomat variable: __R1156.5_BOOL_i"
+      },
+      "page61_r1156_0_bool_i": {
+        "name": "Circulation control status"
+      },
+      "page61_r805_2_bool_i": {
+        "name": "Unknown Tecomat variable: __R805.2_BOOL_i"
+      },
+      "page61_r805_4_bool_i": {
+        "name": "Unknown Tecomat variable: __R805.4_BOOL_i"
+      },
+      "page61_y6_2_bool_i": {
+        "name": "Compressor"
+      },
+      "page61_y6_4_bool_i": {
+        "name": "Fan"
+      },
+      "page61_y7_1_bool_i": {
+        "name": "Circulation pump"
+      },
+      "page61_y6_5_bool_i": {
+        "name": "Unknown Tecomat variable: __Y6.5_BOOL_i"
+      },
+      "page61_y6_6_bool_i": {
+        "name": "Unknown Tecomat variable: __Y6.6_BOOL_i"
+      },
+      "page61_y7_2_bool_i": {
+        "name": "Circulation pump output"
+      },
+      "page61_r1156_2_bool_i": {
+        "name": "Unknown Tecomat variable: __R1156.2_BOOL_i"
+      },
+      "page61_r6800_0_bool_i": {
+        "name": "Unknown Tecomat variable: __R6800.0_BOOL_i"
+      },
+      "page61_s25_4_bool_i": {
+        "name": "Unknown Tecomat variable: __S25.4_BOOL_i"
+      },
+      "page61_y6_0_bool_i": {
+        "name": "Domestic hot water heating"
+      },
+      "page61_r2750_0_bool_i": {
+        "name": "Unknown Tecomat variable: __R2750.0_BOOL_i"
+      },
+      "page61_r2736_0_bool_i": {
+        "name": "Unknown Tecomat variable: __R2736.0_BOOL_i"
+      },
+      "page61_y6_3_bool_i": {
+        "name": "Unknown Tecomat variable: __Y6.3_BOOL_i"
+      },
+      "page61_r2731_0_bool_i": {
+        "name": "Unknown Tecomat variable: __R2731.0_BOOL_i"
+      },
+      "page61_r8904_2_bool_i": {
+        "name": "Unknown Tecomat variable: __R8904.2_BOOL_i"
+      },
+      "page61_r6369_0_bool_i": {
+        "name": "Unknown Tecomat variable: __R6369.0_BOOL_i"
+      },
+      "page61_x31_2_bool_i": {
+        "name": "Unknown Tecomat variable: __X31.2_BOOL_i"
+      },
+      "page61_r2755_0_bool_i": {
+        "name": "Unknown Tecomat variable: __R2755.0_BOOL_i"
+      },
+      "page61_s25_3_bool_i": {
+        "name": "Unknown Tecomat variable: __S25.3_BOOL_i"
+      },
+      "page53_r6895_0_bool_i": {
+        "name": "Unknown Tecomat variable: __R6895.0_BOOL_-i"
+      },
+      "page53_x31_2_bool_i": {
+        "name": "Unknown Tecomat variable: __X31.2_BOOL_i"
+      },
+      "page53_r8904_2_bool_i": {
+        "name": "Unknown Tecomat variable: __R8904.2_BOOL_i"
+      },
+      "page53_r6369_0_bool_i": {
+        "name": "Unknown Tecomat variable: __R6369.0_BOOL_i"
+      },
+      "page53_r6820_0_bool_i": {
+        "name": "Unknown Tecomat variable: __R6820.0_BOOL_i"
+      },
+      "page53_r800_0_bool_i": {
+        "name": "Unknown Tecomat variable: __R800.0_BOOL_i"
+      },
+      "page53_r2606_4_bool_i": {
+        "name": "Unknown Tecomat variable: __R2606.4_BOOL_i"
+      },
+      "page53_r2606_3_bool_i": {
+        "name": "Unknown Tecomat variable: __R2606.3_BOOL_i"
+      },
+      "unknown_variable": {
+        "name": "Unknown Tecomat variable"
+      }
+    }
+  }
+}

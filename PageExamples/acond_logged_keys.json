@@ -1,0 +1,262 @@
+{
+  "pages":
+    {
+      "main": [
+        {
+          "key": "__R5964_REAL_.1f",
+          "name": "Teplota vody v deskovém výměníku",
+		"type": "temperature",
+          "logLevel": 3,
+          "idx": 0
+        },
+		{
+          "key": "__R5952_REAL_.1f",
+          "name": "Teplota vratné vody",
+		"type": "temperature",
+          "logLevel": 3,
+          "idx": 0
+        },
+        {
+          "key": "__R5972_REAL_.1f",
+          "name": "Venkovní teplota",
+		"type": "temperature",
+          "logLevel": 1,
+          "idx": 23
+        },
+        {
+          "key": "__R72_REAL_.1f",
+          "name": "Průměrná venkovní teplota",
+		"type": "temperature",
+          "logLevel": 1,
+          "idx": 0
+        },
+		{
+          "key": "__R5976_REAL_.1f",
+          "name": "Teplota v místnosti",
+		"type": "temperature",
+          "logLevel": 1,
+          "idx": 0
+        },
+		{
+          "key": "__R190_REAL_.1f",
+          "name": "Žádaná teplota v místnosti",
+		"type": "temperature",
+		"editable": true,
+          "logLevel": 1,
+          "idx": 0
+        },
+		{
+          "key": "__R5984_REAL_.1f",
+          "name": "Teplota užitkové vody",
+		"type": "temperature",
+          "logLevel": 1,
+          "idx": 0
+        },
+		{
+          "key": "__Y6.4_BOOL_i",
+          "name": "Ventilátor",
+		"type": "status",
+          "logLevel": 1,
+          "idx": 30
+        },
+		{
+          "key": "__R6449.6_BOOL_i",
+          "name": "HDO",
+		"type": "status",
+          "logLevel": 1,
+          "idx": 26
+        },
+		{
+          "key": "__Y7.1_BOOL_i",
+          "name": "Ob?hové ?erpadlo",
+		"type": "status",
+          "logLevel": 1,
+          "idx": 31
+        },
+		{
+          "key": "__Y6.2_BOOL_i",
+          "name": "Kompresor",
+		"type": "status",
+          "logLevel": 1,
+          "idx": 27
+        },
+		{
+          "key": "__R6059.0_BOOL_i",
+          "name": "Zimní provoz",
+		"type": "status",
+          "logLevel": 1,
+          "idx": 0
+        },
+		{
+          "key": "__R1808_REAL_.1f",
+          "name": "Firmware version",
+		"type": "info",
+          "logLevel": 1,
+          "idx": 0
+        },
+		{
+          "key": "__R1808_REAL_.1f",
+          "name": "Firmware version",
+		"type": "info",
+          "logLevel": 1,
+          "idx": 0
+        },
+		{
+          "key": "__R6191_STRING[80]_s",
+          "name": "Vlastník",
+		"type": "info",
+          "logLevel": 1,
+          "idx": 0
+        },
+		{
+          "key": "__R870.0_BOOL_i",
+          "name": "Acond Therm regulace",
+		"type": "status",
+          "logLevel": 1,
+          "idx": 0
+        },
+		{
+          "key": "__R870.1_BOOL_i",
+          "name": "Ekviterm regulace",
+		"type": "status",
+          "logLevel": 1,
+          "idx": 0
+        },
+		{
+          "key": "__R870.2_BOOL_i",
+          "name": "Rucni regulace",
+		"type": "status",
+          "logLevel": 1,
+          "idx": 0
+        },
+		{
+          "key": "__R870.3_BOOL_i",
+          "name": "Automaticky rezim",
+		"type": "status",
+          "logLevel": 1,
+          "idx": 0
+        },
+		{
+          "key": "__R870.4_BOOL_i",
+          "name": "Rezim tepelne cerpadlo",
+		"type": "status",
+          "logLevel": 1,
+          "idx": 0
+        },
+		{
+          "key": "__R870.6_BOOL_i",
+          "name": "Rezim bivalence",
+		"type": "status",
+          "logLevel": 1,
+          "idx": 29
+        },
+		{
+          "key": "__R870.7_BOOL_i",
+          "name": "Vypnuto",
+		"type": "status",
+          "logLevel": 1,
+          "idx": 0
+        },
+		{
+          "key": "__R6024_DT_TDD.MM.YYYY",
+          "name": "Datum",
+		"type": "info",
+          "logLevel": 1,
+          "idx": 0
+        },
+		{
+          "key": "__R6024_DT_Thh:mm",
+          "name": "Cas",
+		"type": "info",
+          "logLevel": 1,
+          "idx": 0
+        },
+		{
+          "key": "__R190_REAL_.1f",
+          "name": "Teplota v mistnosti zadana ",
+		"type": "temperature",
+          "logLevel": 1,
+          "idx": 0
+        },
+		{
+          "key": "__R5976_REAL_.1f",
+          "name": "Teplota v mistnosti aktualni ",
+		"type": "temperature",
+          "logLevel": 1,
+          "idx": 24
+        },
+		{
+          "key": "__R5980_REAL_.1f",
+          "name": "Teplota v mistnosti pozadovana",
+		"type": "temperature",
+          "logLevel": 1,
+          "idx": 0
+        },
+		{
+          "key": "__R5952_REAL_.1f",
+          "name": "Teplota vratne vody aktualni",
+		"type": "temperature",
+          "logLevel": 1,
+          "idx": 0
+        },
+		{
+          "key": "__R5956_REAL_.1f",
+          "name": "Teplota vratne vody pozadovana",
+		"type": "info",
+          "logLevel": 1,
+          "idx": 0
+        },
+		{
+          "key": "__R5964_REAL_.1f",
+          "name": "Teplota vody v deskovem vymeniku",
+		"type": "info",
+          "logLevel": 1,
+          "idx": 0
+        },
+		{
+          "key": "__R5972_REAL_.1f",
+          "name": "Venkovni teplota aktualni",
+		"type": "temperature",
+          "logLevel": 1,
+          "idx": 0
+        },
+		{
+          "key": "__R72_REAL_.1f",
+          "name": "Venkovni teplota prumerna",
+		"type": "temperature",
+          "logLevel": 1,
+          "idx": 28
+        },
+		{
+          "key": "__R5984_REAL_.1f",
+          "name": "TUV aktualni",
+		"type": "temperature",
+          "logLevel": 1,
+          "idx": 25
+        },
+		{
+          "key": "__R815_REAL_.1f",
+          "name": "TUV pozadovana",
+		"type": "temperature",
+          "logLevel": 1,
+          "idx": 0
+        },
+		{
+          "key": "__R5988_REAL_.1f",
+          "name": "TUV zadana",
+		"type": "temperature",
+          "logLevel": 1,
+          "idx": 0
+        },
+        {
+          "key": "__Y6.0_BOOL_i",
+          "name": "Ohrev TUV",
+		  "type": "status",
+          "logLevel": 1,
+          "idx": 32
+        }
+      ],
+      "information" : [
+      ]
+    }
+}
