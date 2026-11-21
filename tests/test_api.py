@@ -3,6 +3,7 @@ from __future__ import annotations
 import sys
 import types
 import unittest
+import struct
 from pathlib import Path
 from typing import Any, cast
 
@@ -194,3 +195,31 @@ class AcondLoginTests(unittest.IsolatedAsyncioTestCase):
             await client.async_login()
 
         self.assertFalse(client._logged_in)
+
+
+class AcondBrandTests(unittest.TestCase):
+    @staticmethod
+    def _png_size(file_path: Path) -> tuple[int, int]:
+        with file_path.open("rb") as png:
+            header = png.read(24)
+        if header[:8] != b"\x89PNG\r\n\x1a\n":
+            raise AssertionError(f"{file_path} is not a PNG")
+        return struct.unpack(">II", header[16:24])
+
+    def test_brand_assets_are_present_and_have_valid_dimensions(self) -> None:
+        brand_dir = (
+            Path(__file__).resolve().parents[1]
+            / "custom_components"
+            / "acond_integration"
+            / "brand"
+        )
+        expected_sizes = {
+            "icon.png": (256, 256),
+            "icon@2x.png": (512, 512),
+            "logo.png": (300, 200),
+            "logo@2x.png": (600, 400),
+        }
+        for file_name, expected_size in expected_sizes.items():
+            file_path = brand_dir / file_name
+            self.assertTrue(file_path.is_file(), f"Missing {file_name}")
+            self.assertEqual(self._png_size(file_path), expected_size)

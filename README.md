@@ -117,7 +117,7 @@ Some values use the key catalogue in `acond_logged_keys.json` to provide:
 - A Czech or English entity name
 - Hidden or visible display behavior
 
-Unknown XML keys remain available by generating a `PAGEXX:<XML_KEY>` data key and an entity ID. This allows real XML output to be inspected and mapped to a more descriptive entity name later.
+XML keys without a catalogue definition are exposed with a generated `PAGEXX:<XML_KEY>` data key and entity ID, so real XML output can be inspected and mapped later. Catalogue entries marked `"show": false` are parsed but are not exposed as Home Assistant entities.
 
 Entity values and attributes can be used in dashboards, Automations, Templates, graphs, and the Home Assistant Recorder.
 
@@ -137,7 +137,9 @@ custom_components/acond_integration/
 ├── strings.json
 ├── brand/
 │   ├── icon.png
-│   └── logo.png
+│   ├── icon@2x.png
+│   ├── logo.png
+│   └── logo@2x.png
 └── translations/
     ├── cs.json
     └── en.json
