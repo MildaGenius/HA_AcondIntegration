@@ -29,19 +29,22 @@
         "key": "__R6819_USINT_u",
         "type": "info",
         "source_page": "PAGE49.XML",
-        "suggested_object_id": "page49_r6819_usint_u"
+        "suggested_object_id": "page49_r6819_usint_u",
+        "show": false
       },
       {
         "key": "__X31.2_BOOL_i",
         "type": "status",
         "source_page": "PAGE49.XML",
-        "suggested_object_id": "page49_x31_2_bool_i"
+        "suggested_object_id": "page49_x31_2_bool_i",
+        "show": false
       },
       {
         "key": "__R6800.0_BOOL_i",
         "type": "status",
         "source_page": "PAGE49.XML",
-        "suggested_object_id": "page49_r6800_0_bool_i"
+        "suggested_object_id": "page49_r6800_0_bool_i",
+        "show": false
       },
       {
         "key": "__Y6.4_BOOL_i",
@@ -79,25 +82,29 @@
         "key": "__R7148.0_BOOL_i",
         "type": "status",
         "source_page": "PAGE49.XML",
-        "suggested_object_id": "page49_r7148_0_bool_i"
+        "suggested_object_id": "page49_r7148_0_bool_i",
+        "show": false
       },
       {
         "key": "__R6688_STRING[95]_s",
         "type": "info",
         "source_page": "PAGE49.XML",
-        "suggested_object_id": "page49_r6688_string_95_s"
+        "suggested_object_id": "page49_r6688_string_95_s",
+        "show": false
       },
       {
         "key": "__R8904.2_BOOL_i",
         "type": "status",
         "source_page": "PAGE49.XML",
-        "suggested_object_id": "page49_r8904_2_bool_i"
+        "suggested_object_id": "page49_r8904_2_bool_i",
+        "show": false
       },
       {
         "key": "__R6597_STRING[80]_s",
         "type": "info",
         "source_page": "PAGE49.XML",
-        "suggested_object_id": "page49_r6597_string_80_s"
+        "suggested_object_id": "page49_r6597_string_80_s",
+        "show": false
       },
       {
         "key": "__R870.0_BOOL_i",
@@ -109,7 +116,8 @@
         "key": "__R20478.0_BOOL_i",
         "type": "status",
         "source_page": "PAGE49.XML",
-        "suggested_object_id": "page49_r20478_0_bool_i"
+        "suggested_object_id": "page49_r20478_0_bool_i",
+        "show": false
       },
       {
         "key": "__R870.1_BOOL_i",
@@ -163,13 +171,15 @@
         "key": "__R6369.0_BOOL_i",
         "type": "status",
         "source_page": "PAGE49.XML",
-        "suggested_object_id": "page49_r6369_0_bool_i"
+        "suggested_object_id": "page49_r6369_0_bool_i",
+        "show": false
       },
       {
         "key": "__R17187.0_BOOL_i",
         "type": "status",
         "source_page": "PAGE49.XML",
-        "suggested_object_id": "page49_r17187_0_bool_i"
+        "suggested_object_id": "page49_r17187_0_bool_i",
+        "show": false
       },
       {
         "key": "__R190_REAL_.1f",
@@ -182,7 +192,8 @@
         "key": "__R805.4_BOOL_i",
         "type": "status",
         "source_page": "PAGE49.XML",
-        "suggested_object_id": "page49_r805_4_bool_i"
+        "suggested_object_id": "page49_r805_4_bool_i",
+        "show": false
       },
       {
         "key": "__R6288_REAL_.1f",
@@ -200,13 +211,15 @@
         "key": "__R6799.2_BOOL_i",
         "type": "status",
         "source_page": "PAGE49.XML",
-        "suggested_object_id": "page49_r6799_2_bool_i"
+        "suggested_object_id": "page49_r6799_2_bool_i",
+        "show": false
       },
       {
         "key": "__R8906.2_BOOL_i",
         "type": "status",
         "source_page": "PAGE49.XML",
-        "suggested_object_id": "page49_r8906_2_bool_i"
+        "suggested_object_id": "page49_r8906_2_bool_i",
+        "show": false
       },
       {
         "key": "__R1156.0_BOOL_i",
@@ -233,31 +246,36 @@
         "key": "__R6268_REAL_.1f",
         "type": "info",
         "source_page": "PAGE49.XML",
-        "suggested_object_id": "page49_r6268_real_1f"
+        "suggested_object_id": "page49_r6268_real_1f",
+        "show": false
       },
       {
         "key": "__R8905.6_BOOL_i",
         "type": "status",
         "source_page": "PAGE49.XML",
-        "suggested_object_id": "page49_r8905_6_bool_i"
+        "suggested_object_id": "page49_r8905_6_bool_i",
+        "show": false
       },
       {
         "key": "__R17580.0_BOOL_i",
         "type": "status",
         "source_page": "PAGE49.XML",
-        "suggested_object_id": "page49_r17580_0_bool_i"
+        "suggested_object_id": "page49_r17580_0_bool_i",
+        "show": false
       },
       {
         "key": "__R1852_REAL_.1f",
         "type": "info",
         "source_page": "PAGE49.XML",
-        "suggested_object_id": "page49_r1852_real_1f"
+        "suggested_object_id": "page49_r1852_real_1f",
+        "show": false
       },
       {
         "key": "__R6316_REAL_.1f",
         "type": "info",
         "source_page": "PAGE49.XML",
-        "suggested_object_id": "page49_r6316_real_1f"
+        "suggested_object_id": "page49_r6316_real_1f",
+        "show": false
       },
       {
         "key": "__R6320_REAL_.1f",
@@ -269,7 +287,8 @@
         "key": "__R8906.6_BOOL_i",
         "type": "status",
         "source_page": "PAGE49.XML",
-        "suggested_object_id": "page49_r8906_6_bool_i"
+        "suggested_object_id": "page49_r8906_6_bool_i",
+        "show": false
       },
       {
         "key": "__R6276_REAL_.1f",
@@ -281,7 +300,8 @@
         "key": "__R8905.7_BOOL_i",
         "type": "status",
         "source_page": "PAGE49.XML",
-        "suggested_object_id": "page49_r8905_7_bool_i"
+        "suggested_object_id": "page49_r8905_7_bool_i",
+        "show": false
       },
       {
         "key": "__R6284_REAL_.1f",
@@ -299,7 +319,8 @@
         "key": "__R8906.1_BOOL_i",
         "type": "status",
         "source_page": "PAGE49.XML",
-        "suggested_object_id": "page49_r8906_1_bool_i"
+        "suggested_object_id": "page49_r8906_1_bool_i",
+        "show": false
       },
       {
         "key": "__R770_REAL_.1f",
@@ -330,25 +351,29 @@
         "key": "__R805.3_BOOL_i",
         "type": "status",
         "source_page": "PAGE49.XML",
-        "suggested_object_id": "page49_r805_3_bool_i"
+        "suggested_object_id": "page49_r805_3_bool_i",
+        "show": false
       },
       {
         "key": "__R7292.3_BOOL_i",
         "type": "status",
         "source_page": "PAGE49.XML",
-        "suggested_object_id": "page49_r7292_3_bool_i"
+        "suggested_object_id": "page49_r7292_3_bool_i",
+        "show": false
       },
       {
         "key": "__R8906.3_BOOL_i",
         "type": "status",
         "source_page": "PAGE49.XML",
-        "suggested_object_id": "page49_r8906_3_bool_i"
+        "suggested_object_id": "page49_r8906_3_bool_i",
+        "show": false
       },
       {
         "key": "__R7292.7_BOOL_i",
         "type": "status",
         "source_page": "PAGE49.XML",
-        "suggested_object_id": "page49_r7292_7_bool_i"
+        "suggested_object_id": "page49_r7292_7_bool_i",
+        "show": false
       },
       {
         "key": "__R827.0_BOOL_i",
@@ -360,49 +385,57 @@
         "key": "__R805.2_BOOL_i",
         "type": "status",
         "source_page": "PAGE49.XML",
-        "suggested_object_id": "page49_r805_2_bool_i"
+        "suggested_object_id": "page49_r805_2_bool_i",
+        "show": false
       },
       {
         "key": "__R814.1_BOOL_i",
         "type": "status",
         "source_page": "PAGE49.XML",
-        "suggested_object_id": "page49_r814_1_bool_i"
+        "suggested_object_id": "page49_r814_1_bool_i",
+        "show": false
       },
       {
         "key": "__R814.0_BOOL_i",
         "type": "status",
         "source_page": "PAGE49.XML",
-        "suggested_object_id": "page49_r814_0_bool_i"
+        "suggested_object_id": "page49_r814_0_bool_i",
+        "show": false
       },
       {
         "key": "__R688.1_BOOL_i",
         "type": "status",
         "source_page": "PAGE49.XML",
-        "suggested_object_id": "page49_r688_1_bool_i"
+        "suggested_object_id": "page49_r688_1_bool_i",
+        "show": false
       },
       {
         "key": "__Y6.6_BOOL_i",
         "type": "status",
         "source_page": "PAGE49.XML",
-        "suggested_object_id": "page49_y6_6_bool_i"
+        "suggested_object_id": "page49_y6_6_bool_i",
+        "show": false
       },
       {
         "key": "__R688.0_BOOL_i",
         "type": "status",
         "source_page": "PAGE49.XML",
-        "suggested_object_id": "page49_r688_0_bool_i"
+        "suggested_object_id": "page49_r688_0_bool_i",
+        "show": false
       },
       {
         "key": "__Y6.5_BOOL_i",
         "type": "status",
         "source_page": "PAGE49.XML",
-        "suggested_object_id": "page49_y6_5_bool_i"
+        "suggested_object_id": "page49_y6_5_bool_i",
+        "show": false
       },
       {
         "key": "__R2750.0_BOOL_i",
         "type": "status",
         "source_page": "PAGE49.XML",
-        "suggested_object_id": "page49_r2750_0_bool_i"
+        "suggested_object_id": "page49_r2750_0_bool_i",
+        "show": false
       },
       {
         "key": "__Y7.2_BOOL_i",
@@ -434,19 +467,22 @@
         "key": "__R805.1_BOOL_i",
         "type": "status",
         "source_page": "PAGE49.XML",
-        "suggested_object_id": "page49_r805_1_bool_i"
+        "suggested_object_id": "page49_r805_1_bool_i",
+        "show": false
       },
       {
         "key": "__R6791.0_BOOL_i",
         "type": "status",
         "source_page": "PAGE49.XML",
-        "suggested_object_id": "page49_r6791_0_bool_i"
+        "suggested_object_id": "page49_r6791_0_bool_i",
+        "show": false
       },
       {
         "key": "__R1156.2_BOOL_i",
         "type": "status",
         "source_page": "PAGE49.XML",
-        "suggested_object_id": "page49_r1156_2_bool_i"
+        "suggested_object_id": "page49_r1156_2_bool_i",
+        "show": false
       },
       {
         "key": "__R1985.1_BOOL_i",
@@ -460,7 +496,8 @@
         "key": "__R1156.5_BOOL_i",
         "type": "status",
         "source_page": "PAGE49.XML",
-        "suggested_object_id": "page49_r1156_5_bool_i"
+        "suggested_object_id": "page49_r1156_5_bool_i",
+        "show": false
       },
       {
         "key": "__R1985.3_BOOL_i",
@@ -474,31 +511,36 @@
         "key": "__R6280_REAL_.1f",
         "type": "info",
         "source_page": "PAGE49.XML",
-        "suggested_object_id": "page49_r6280_real_1f"
+        "suggested_object_id": "page49_r6280_real_1f",
+        "show": false
       },
       {
         "key": "__R6799.6_BOOL_i",
         "type": "status",
         "source_page": "PAGE49.XML",
-        "suggested_object_id": "page49_r6799_6_bool_i"
+        "suggested_object_id": "page49_r6799_6_bool_i",
+        "show": false
       },
       {
         "key": "__Y6.3_BOOL_i",
         "type": "status",
         "source_page": "PAGE49.XML",
-        "suggested_object_id": "page49_y6_3_bool_i"
+        "suggested_object_id": "page49_y6_3_bool_i",
+        "show": false
       },
       {
         "key": "__S25.4_BOOL_i",
         "type": "status",
         "source_page": "PAGE49.XML",
-        "suggested_object_id": "page49_s25_4_bool_i"
+        "suggested_object_id": "page49_s25_4_bool_i",
+        "show": false
       },
       {
         "key": "__S25.3_BOOL_i",
         "type": "status",
         "source_page": "PAGE49.XML",
-        "suggested_object_id": "page49_s25_3_bool_i"
+        "suggested_object_id": "page49_s25_3_bool_i",
+        "show": false
       },
       {
         "key": "__R6476.0_BOOL_i",
@@ -544,13 +586,15 @@
         "key": "__R6792.0_BOOL_i",
         "type": "status",
         "source_page": "PAGE49.XML",
-        "suggested_object_id": "page49_r6792_0_bool_i"
+        "suggested_object_id": "page49_r6792_0_bool_i",
+        "show": false
       },
       {
         "key": "__R6804_STRING[6]_s",
         "type": "info",
         "source_page": "PAGE49.XML",
-        "suggested_object_id": "page49_r6804_string_6_s"
+        "suggested_object_id": "page49_r6804_string_6_s",
+        "show": false
       },
       {
         "key": "__R6801_USINT_u",
@@ -562,7 +606,8 @@
         "key": "__R6802_UINT_u",
         "type": "info",
         "source_page": "PAGE49.XML",
-        "suggested_object_id": "page49_r6802_uint_u"
+        "suggested_object_id": "page49_r6802_uint_u",
+        "show": false
       },
       {
         "key": "__R871.0_BOOL_i",
@@ -576,13 +621,15 @@
         "key": "__R6799.3_BOOL_i",
         "type": "status",
         "source_page": "PAGE49.XML",
-        "suggested_object_id": "page49_r6799_3_bool_i"
+        "suggested_object_id": "page49_r6799_3_bool_i",
+        "show": false
       },
       {
         "key": "__R6324_REAL_.1f",
         "type": "info",
         "source_page": "PAGE49.XML",
-        "suggested_object_id": "page49_r6324_real_1f"
+        "suggested_object_id": "page49_r6324_real_1f",
+        "show": false
       },
       {
         "key": "__R1985.2_BOOL_i",
@@ -596,43 +643,50 @@
         "key": "__R8906.7_BOOL_i",
         "type": "status",
         "source_page": "PAGE49.XML",
-        "suggested_object_id": "page49_r8906_7_bool_i"
+        "suggested_object_id": "page49_r8906_7_bool_i",
+        "show": false
       },
       {
         "key": "__R2755.0_BOOL_i",
         "type": "status",
         "source_page": "PAGE49.XML",
-        "suggested_object_id": "page49_r2755_0_bool_i"
+        "suggested_object_id": "page49_r2755_0_bool_i",
+        "show": false
       },
       {
         "key": "__R1968_REAL_.1f",
         "type": "info",
         "source_page": "PAGE49.XML",
-        "suggested_object_id": "page49_r1968_real_1f"
+        "suggested_object_id": "page49_r1968_real_1f",
+        "show": false
       },
       {
         "key": "__R24864.0_BOOL_i",
         "type": "status",
         "source_page": "PAGE49.XML",
-        "suggested_object_id": "page49_r24864_0_bool_i"
+        "suggested_object_id": "page49_r24864_0_bool_i",
+        "show": false
       },
       {
         "key": "__R7148.5_BOOL_i",
         "type": "status",
         "source_page": "PAGE49.XML",
-        "suggested_object_id": "page49_r7148_5_bool_i"
+        "suggested_object_id": "page49_r7148_5_bool_i",
+        "show": false
       },
       {
         "key": "__R7293.0_BOOL_i",
         "type": "status",
         "source_page": "PAGE49.XML",
-        "suggested_object_id": "page49_r7293_0_bool_i"
+        "suggested_object_id": "page49_r7293_0_bool_i",
+        "show": false
       },
       {
         "key": "__R7292.2_BOOL_i",
         "type": "status",
         "source_page": "PAGE49.XML",
-        "suggested_object_id": "page49_r7292_2_bool_i"
+        "suggested_object_id": "page49_r7292_2_bool_i",
+        "show": false
       },
       {
         "key": "__R1985.0_BOOL_i",
@@ -646,19 +700,22 @@
         "key": "__R6312_REAL_.1f",
         "type": "info",
         "source_page": "PAGE49.XML",
-        "suggested_object_id": "page49_r6312_real_1f"
+        "suggested_object_id": "page49_r6312_real_1f",
+        "show": false
       },
       {
         "key": "__R8906.5_BOOL_i",
         "type": "status",
         "source_page": "PAGE49.XML",
-        "suggested_object_id": "page49_r8906_5_bool_i"
+        "suggested_object_id": "page49_r8906_5_bool_i",
+        "show": false
       },
       {
         "key": "__R2736.0_BOOL_i",
         "type": "status",
         "source_page": "PAGE49.XML",
-        "suggested_object_id": "page49_r2736_0_bool_i"
+        "suggested_object_id": "page49_r2736_0_bool_i",
+        "show": false
       }
     ],
     "PAGE63.XML": [
@@ -750,13 +807,15 @@
         "key": "__R8927_UDINT_u",
         "type": "payload",
         "source_page": "PAGE63.XML",
-        "suggested_object_id": "page63_r8927_udint_u"
+        "suggested_object_id": "page63_r8927_udint_u",
+        "show": false
       },
       {
         "key": "__R56057.0_BOOL_i",
         "type": "status",
         "source_page": "PAGE63.XML",
-        "suggested_object_id": "page63_r56057_0_bool_i"
+        "suggested_object_id": "page63_r56057_0_bool_i",
+        "show": false
       },
       {
         "key": "__R805.4_BOOL_i",
@@ -769,19 +828,22 @@
         "key": "__R1157.5_BOOL_i",
         "type": "status",
         "source_page": "PAGE63.XML",
-        "suggested_object_id": "page63_r1157_5_bool_i"
+        "suggested_object_id": "page63_r1157_5_bool_i",
+        "show": false
       },
       {
         "key": "__R1157.6_BOOL_i",
         "type": "status",
         "source_page": "PAGE63.XML",
-        "suggested_object_id": "page63_r1157_6_bool_i"
+        "suggested_object_id": "page63_r1157_6_bool_i",
+        "show": false
       },
       {
         "key": "__R1157.7_BOOL_i",
         "type": "status",
         "source_page": "PAGE63.XML",
-        "suggested_object_id": "page63_r1157_7_bool_i"
+        "suggested_object_id": "page63_r1157_7_bool_i",
+        "show": false
       },
       {
         "key": "__R805.2_BOOL_i",
@@ -794,13 +856,15 @@
         "key": "__R1158.0_BOOL_i",
         "type": "status",
         "source_page": "PAGE63.XML",
-        "suggested_object_id": "page63_r1158_0_bool_i"
+        "suggested_object_id": "page63_r1158_0_bool_i",
+        "show": false
       },
       {
         "key": "__R2607.1_BOOL_i",
         "type": "status",
         "source_page": "PAGE63.XML",
-        "suggested_object_id": "page63_r2607_1_bool_i"
+        "suggested_object_id": "page63_r2607_1_bool_i",
+        "show": false
       }
     ],
     "PAGE61.XML": [
@@ -1042,7 +1106,8 @@
         "key": "__R2731.0_BOOL_i",
         "type": "status",
         "source_page": "PAGE61.XML",
-        "suggested_object_id": "page61_r2731_0_bool_i"
+        "suggested_object_id": "page61_r2731_0_bool_i",
+        "show": false
       },
       {
         "key": "__R20575_STRING[23]_s",
@@ -1181,37 +1246,43 @@
         "key": "__R872_STRING[20]_s",
         "type": "info",
         "source_page": "PAGE53.XML",
-        "suggested_object_id": "page53_r872_string_20_s"
+        "suggested_object_id": "page53_r872_string_20_s",
+        "show": false
       },
       {
         "key": "__R893_STRING[20]_s",
         "type": "info",
         "source_page": "PAGE53.XML",
-        "suggested_object_id": "page53_r893_string_20_s"
+        "suggested_object_id": "page53_r893_string_20_s",
+        "show": false
       },
       {
         "key": "__R914_STRING[20]_s",
         "type": "info",
         "source_page": "PAGE53.XML",
-        "suggested_object_id": "page53_r914_string_20_s"
+        "suggested_object_id": "page53_r914_string_20_s",
+        "show": false
       },
       {
         "key": "__R935_STRING[20]_s",
         "type": "info",
         "source_page": "PAGE53.XML",
-        "suggested_object_id": "page53_r935_string_20_s"
+        "suggested_object_id": "page53_r935_string_20_s",
+        "show": false
       },
       {
         "key": "__R956_STRING[20]_s",
         "type": "info",
         "source_page": "PAGE53.XML",
-        "suggested_object_id": "page53_r956_string_20_s"
+        "suggested_object_id": "page53_r956_string_20_s",
+        "show": false
       },
       {
         "key": "__R977_STRING[20]_s",
         "type": "info",
         "source_page": "PAGE53.XML",
-        "suggested_object_id": "page53_r977_string_20_s"
+        "suggested_object_id": "page53_r977_string_20_s",
+        "show": false
       },
       {
         "key": "__R6408_STRING[16]_s",
@@ -1241,25 +1312,29 @@
         "key": "__R1195_STRING[80]_s",
         "type": "info",
         "source_page": "PAGE53.XML",
-        "suggested_object_id": "page53_r1195_string_80_s"
+        "suggested_object_id": "page53_r1195_string_80_s",
+        "show": false
       },
       {
         "key": "__R1276_STRING[80]_s",
         "type": "info",
         "source_page": "PAGE53.XML",
-        "suggested_object_id": "page53_r1276_string_80_s"
+        "suggested_object_id": "page53_r1276_string_80_s",
+        "show": false
       },
       {
         "key": "__R6887_DT_TDD.MM.YYYY hh:mm:ss",
         "type": "info",
         "source_page": "PAGE53.XML",
-        "suggested_object_id": "page53_r6887_dt_tdd_mm_yyyy_hh_mm_ss"
+        "suggested_object_id": "page53_r6887_dt_tdd_mm_yyyy_hh_mm_ss",
+        "show": false
       },
       {
         "key": "__R6895.0_BOOL_-i",
         "type": "status",
         "source_page": "PAGE53.XML",
-        "suggested_object_id": "page53_r6895_0_bool_i"
+        "suggested_object_id": "page53_r6895_0_bool_i",
+        "show": false
       },
       {
         "key": "__R6688_STRING[95]_s",
@@ -1314,37 +1389,43 @@
         "key": "__R1779_STRING[20]_s",
         "type": "info",
         "source_page": "PAGE53.XML",
-        "suggested_object_id": "page53_r1779_string_20_s"
+        "suggested_object_id": "page53_r1779_string_20_s",
+        "show": false
       },
       {
         "key": "__R6784_STRING[6]_s",
         "type": "info",
         "source_page": "PAGE53.XML",
-        "suggested_object_id": "page53_r6784_string_6_s"
+        "suggested_object_id": "page53_r6784_string_6_s",
+        "show": false
       },
       {
         "key": "__R6820.0_BOOL_i",
         "type": "status",
         "source_page": "PAGE53.XML",
-        "suggested_object_id": "page53_r6820_0_bool_i"
+        "suggested_object_id": "page53_r6820_0_bool_i",
+        "show": false
       },
       {
         "key": "__R800.0_BOOL_i",
         "type": "status",
         "source_page": "PAGE53.XML",
-        "suggested_object_id": "page53_r800_0_bool_i"
+        "suggested_object_id": "page53_r800_0_bool_i",
+        "show": false
       },
       {
         "key": "__R2606.4_BOOL_i",
         "type": "status",
         "source_page": "PAGE53.XML",
-        "suggested_object_id": "page53_r2606_4_bool_i"
+        "suggested_object_id": "page53_r2606_4_bool_i",
+        "show": false
       },
       {
         "key": "__R2606.3_BOOL_i",
         "type": "status",
         "source_page": "PAGE53.XML",
-        "suggested_object_id": "page53_r2606_3_bool_i"
+        "suggested_object_id": "page53_r2606_3_bool_i",
+        "show": false
       }
     ]
   },
@@ -1352,67 +1433,80 @@
     {
       "key": "__R5964_REAL_.1f",
       "type": "temperature",
-      "source_page": "not_in_examples"
+      "source_page": "not_in_examples",
+      "show": false
     },
     {
       "key": "__R5952_REAL_.1f",
       "type": "temperature",
-      "source_page": "not_in_examples"
+      "source_page": "not_in_examples",
+      "show": false
     },
     {
       "key": "__R5972_REAL_.1f",
       "type": "temperature",
-      "source_page": "not_in_examples"
+      "source_page": "not_in_examples",
+      "show": false
     },
     {
       "key": "__R5976_REAL_.1f",
       "type": "temperature",
-      "source_page": "not_in_examples"
+      "source_page": "not_in_examples",
+      "show": false
     },
     {
       "key": "__R5984_REAL_.1f",
       "type": "temperature",
-      "source_page": "not_in_examples"
+      "source_page": "not_in_examples",
+      "show": false
     },
     {
       "key": "__R6449.6_BOOL_i",
       "type": "status",
-      "source_page": "not_in_examples"
+      "source_page": "not_in_examples",
+      "show": false
     },
     {
       "key": "__R6059.0_BOOL_i",
       "type": "status",
-      "source_page": "not_in_examples"
+      "source_page": "not_in_examples",
+      "show": false
     },
     {
       "key": "__R6191_STRING[80]_s",
       "type": "info",
-      "source_page": "not_in_examples"
+      "source_page": "not_in_examples",
+      "show": false
     },
     {
       "key": "__R6024_DT_TDD.MM.YYYY",
       "type": "info",
-      "source_page": "not_in_examples"
+      "source_page": "not_in_examples",
+      "show": false
     },
     {
       "key": "__R6024_DT_Thh:mm",
       "type": "info",
-      "source_page": "not_in_examples"
+      "source_page": "not_in_examples",
+      "show": false
     },
     {
       "key": "__R5980_REAL_.1f",
       "type": "temperature",
-      "source_page": "not_in_examples"
+      "source_page": "not_in_examples",
+      "show": false
     },
     {
       "key": "__R5956_REAL_.1f",
       "type": "info",
-      "source_page": "not_in_examples"
+      "source_page": "not_in_examples",
+      "show": false
     },
     {
       "key": "__R5988_REAL_.1f",
       "type": "temperature",
-      "source_page": "not_in_examples"
+      "source_page": "not_in_examples",
+      "show": false
     }
   ]
 }
