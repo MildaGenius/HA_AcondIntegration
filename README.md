@@ -1,5 +1,16 @@
 # Acond Integration for Home Assistant
 
+[![HACS Custom][hacs-badge]][hacs-url]
+[![Home Assistant][ha-badge]][ha-url]
+[![GitHub Release][release-badge]][release-url]
+
+[hacs-badge]: https://img.shields.io/badge/HACS-Custom-41BDF5.svg
+[hacs-url]: https://github.com/hacs/integration
+[ha-badge]: https://img.shields.io/badge/Home%20Assistant-custom-41BDF5.svg
+[ha-url]: https://www.home-assistant.io/
+[release-badge]: https://img.shields.io/github/v/release/MildaGenius/HA_AcondIntegration
+[release-url]: https://github.com/MildaGenius/HA_AcondIntegration/releases
+
 Acond Integration is a local-polling Home Assistant integration for Acond heat pumps controlled by a Tecomat PLC. It connects to the controller's built-in web interface, maintains the Tecomat login session, and exposes XML values from the controller as Home Assistant entities.
 
 The integration is written for Home Assistant and uses asynchronous `aiohttp` requests with `DataUpdateCoordinator`.
@@ -27,7 +38,20 @@ The integration is written for Home Assistant and uses asynchronous `aiohttp` re
 
 ## Installation
 
-1. Copy the `acond_integration` directory into the Home Assistant `custom_components` directory:
+### HACS
+
+1. Open HACS in Home Assistant.
+2. Open **Integrations**.
+3. Open the menu and select **Custom repositories**.
+4. Add `https://github.com/MildaGenius/HA_AcondIntegration` as an **Integration**.
+5. Download **Acond Integration**.
+6. Restart Home Assistant if prompted.
+
+[![Open your Home Assistant instance and start setting up a new integration.](https://my.home-assistant.io/badges/config_flow_start.svg)](https://my.home-assistant.io/redirect/config_flow_start/?domain=acond_integration)
+
+### Manual installation
+
+1. Copy the `custom_components/acond_integration` directory into the Home Assistant `custom_components` directory:
 
    ```text
    <config>/custom_components/acond_integration/
@@ -48,7 +72,7 @@ The setup and options flows provide:
 | Automatically resolve Tecomat name | Resolves the Tecomat name before setup or reload. |
 | Username | Tecomat web-interface username. |
 | Password | Tecomat web-interface password. |
-| Polling interval | Update interval in seconds. The default is 30 seconds; the minimum is 5 seconds. |
+| Polling interval | Update interval in seconds. The default is 120 seconds; the minimum is 5 seconds. |
 
 If automatic resolution fails, the integration falls back to the manually entered IP address.
 
@@ -100,7 +124,7 @@ Entity values and attributes can be used in dashboards, Automations, Templates, 
 ## Project structure
 
 ```text
-acond_integration/
+custom_components/acond_integration/
 ├── __init__.py
 ├── api.py
 ├── binary_sensor.py
@@ -111,6 +135,9 @@ acond_integration/
 ├── manifest.json
 ├── sensor.py
 ├── strings.json
+├── brand/
+│   ├── icon.png
+│   └── logo.png
 └── translations/
     ├── cs.json
     └── en.json

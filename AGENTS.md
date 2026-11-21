@@ -6,7 +6,7 @@ Guidance for coding agents and contributors working on the Acond Integration for
 
 - This repository contains a Home Assistant custom integration for Acond heat pumps controlled by a Tecomat PLC.
 - The integration domain is `acond_integration`.
-- Runtime integration files are in `acond_integration/`.
+- Runtime integration files are in `custom_components/acond_integration/`.
 - API unit tests are in `tests/test_api.py`.
 - XML examples captured from real Tecomat controllers are in `PageExamples/`.
 - The root `README.md` documents installation, configuration, communication, entities, and testing.

@@ -5,6 +5,7 @@ from __future__ import annotations
 from typing import Any
 
 import voluptuous as vol
+from aiohttp import ClientError
 
 from homeassistant import config_entries
 from homeassistant.core import callback
@@ -38,6 +39,8 @@ class AcondConfigFlow(config_entries.ConfigFlow, domain=DOMAIN):
         if user_input is not None:
             host = user_input[CONF_HOST].strip()
             hostname = user_input.get(CONF_HOSTNAME, "").strip()
+            if not host:
+                errors["base"] = "cannot_connect"
             if user_input[CONF_AUTO_DISCOVER] and hostname:
                 client = AcondClient(
                     host,
@@ -48,6 +51,20 @@ class AcondConfigFlow(config_entries.ConfigFlow, domain=DOMAIN):
                 resolved = await client.async_resolve_host(hostname)
                 if resolved:
                     host = resolved
+
+            if not errors:
+                client = AcondClient(
+                    host,
+                    user_input[CONF_USERNAME],
+                    user_input[CONF_PASSWORD],
+                    async_get_clientsession(self.hass),
+                )
+                try:
+                    await client.async_login()
+                except ValueError:
+                    errors["base"] = "invalid_auth"
+                except (ClientError, RuntimeError):
+                    errors["base"] = "cannot_connect"
 
             if not errors:
                 await self.async_set_unique_id(host)
