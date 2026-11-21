@@ -65,10 +65,10 @@
         "name": "Neznámá proměnná Tecomatu: __R6597_STRING[80]_s"
       },
       "page49_r6344_dt_tdd_mm_yyyy": {
-        "name": "Date"
+        "name": "Datum"
       },
       "page49_r6344_dt_thh_mm": {
-        "name": "Time"
+        "name": "Čas"
       },
       "page49_desired_room_temperature": {
         "name": "Požadovaná teplota v místnosti"
@@ -176,10 +176,10 @@
         "name": "Neznámá proměnná Tecomatu: __R6597_STRING[80]_s"
       },
       "page63_r6344_dt_tdd_mm_yyyy": {
-        "name": "Neznámá proměnná Tecomatu: __R6344_DT_TDD.MM.YYYY"
+        "name": "Datum"
       },
       "page63_r6344_dt_thh_mm": {
-        "name": "Neznámá proměnná Tecomatu: __R6344_DT_Thh:mm"
+        "name": "Čas"
       },
       "page63_r8927_udint_u": {
         "name": "Neznámá proměnná Tecomatu: __R8927_UDINT_u"
@@ -236,10 +236,10 @@
         "name": "Neznámá proměnná Tecomatu: __R6688_STRING[95]_s"
       },
       "page61_r6344_dt_tdd_mm_yyyy": {
-        "name": "Neznámá proměnná Tecomatu: __R6344_DT_TDD.MM.YYYY"
+        "name": "Datum"
       },
       "page61_r6344_dt_thh_mm": {
-        "name": "Neznámá proměnná Tecomatu: __R6344_DT_Thh:mm"
+        "name": "Čas"
       },
       "page61_r6597_string_80_s": {
         "name": "Neznámá proměnná Tecomatu: __R6597_STRING[80]_s"
@@ -308,10 +308,10 @@
         "name": "Neznámá proměnná Tecomatu: __R6597_STRING[80]_s"
       },
       "page53_r6344_dt_tdd_mm_yyyy": {
-        "name": "Neznámá proměnná Tecomatu: __R6344_DT_TDD.MM.YYYY"
+        "name": "Datum"
       },
       "page53_r6344_dt_thh_mm": {
-        "name": "Neznámá proměnná Tecomatu: __R6344_DT_Thh:mm"
+        "name": "Čas"
       },
       "page53_r1779_string_20_s": {
         "name": "Neznámá proměnná Tecomatu: __R1779_STRING[20]_s"
